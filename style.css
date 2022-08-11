@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+:root{
+    --cor-fundo:#ebecee;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
