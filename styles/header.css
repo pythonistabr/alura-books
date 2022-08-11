@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.cabecalho__menu-hamburguer{
+    width: 35px;
+    height: 35px;
+    background-image: url('../imgs/Menu.svg');
+    background-repeat: repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 0.2em;
+}
