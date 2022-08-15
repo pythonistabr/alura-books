@@ -58,9 +58,13 @@
     font-weight: 700;
     margin: 0.5em 0;
 }
-
+.estrelas{
+    display: flex;
+    margin-bottom: 0.8em;
+}
 .descricao__texto{
     font-size: 14px;
+    margin-right: 1em;/*alteracao minha*/
 }
 
 .botao_item{
@@ -69,7 +73,7 @@
 
 .botoes__ancora{
     background-color: var(--laranja);
-    padding: 1em 2.2em;
+    padding: 1em 1.8em;
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
