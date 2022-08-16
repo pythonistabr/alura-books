@@ -33,7 +33,11 @@
     position: absolute;
     top: 100%;
     width: auto;
-    left: 0px;/*faz o menu aparecer 0 pixels a esquerda*/
+}
+@media screen and (max-width:428px){
+    .lista-menu{
+        left: 0px;/*faz o menu aparecer 0 pixels a esquerda*/
+    }
 }
 /*se o botao tiver marcado aparece o menu*/
 .container__botao:checked~.lista-menu {
