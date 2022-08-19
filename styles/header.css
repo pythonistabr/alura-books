@@ -78,6 +78,10 @@
 .opcoes {
     display: none;
 }
+
+.container__texto{
+    display: none;
+}
 /* layout tablet desktop*/
 
 @media screen and (min-width: 1024px){
@@ -93,7 +97,6 @@
     .container__texto--negrito{
         font-weight: 700;
     }
-
     .opcoes{
         display: flex;
     }
@@ -123,5 +126,24 @@
     /*esconde o botao na versão > 1024px*/
     .opcoes__botao{
         display: none;
+    }
+}
+@media screen and (min-width: 1728px){
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+    .container__texto{
+        display: block;
     }
 }
