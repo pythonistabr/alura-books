@@ -29,7 +29,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0 3em */
+    margin: 0px 1%;
+}
+
+.container__link{
+    display: flex;
+    align-items: center;
+    /* margin-right: 1%; */
 }
 
 .container__imagem{
