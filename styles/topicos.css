@@ -32,7 +32,7 @@
     font-weight: 700;
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:840px){
     .topicos__titulo{
         font-size: 24px;
     }
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (min-width:1728px){
+@media screen and (min-width:1200px){
     .topicos{
         padding: 3em 25vw;
     }

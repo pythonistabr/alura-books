@@ -9,14 +9,14 @@ hr {
     padding: 1em;
 }
 /*A lista só aparece em telas > 1024px*/
-@media  screen and (max-width:1024px) {
+@media  screen and (max-width:840px) {
     .lista-rodape{
         display: none;
     }
 }
 
 /*o footer em telas > 1024px contém mais links*/
-@media screen and (min-width:1024px){
+@media screen and (min-width:1200px){
     .rodape{
         display: flex;
         justify-content: space-around;
@@ -44,7 +44,7 @@ hr {
     }
 }
 
-@media screen and (min-width:1728px){
+@media screen and (min-width:1200px){
     .lista-rodape{
         border-left: 1px solid var(--cinza-claro);
         padding-left: 1em;
